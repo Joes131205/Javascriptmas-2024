@@ -1,0 +1,62 @@
+body {
+    font-family: "Geologica", sans-serif;
+    background-color: #730217;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 20px;
+    color: #ebebeb;
+    font-size: 3rem;
+    text-align: center;
+}
+
+h4 {
+    margin: 20px;
+    text-align: center;
+    color: #ebebeb;
+}
+
+.calendar-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2px;
+    padding: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #005726;
+    border-radius: 20px;
+    list-style: none;
+    border: 5px solid #ebebeb;
+}
+
+.calendar-box {
+    background-color: #038c3e;
+    color: #ebebeb;
+    text-align: center;
+    padding: 0.6rem 3rem;
+    border: 1px dashed white;
+    margin: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.calendar-box p {
+    margin: 0.1rem 0;
+    text-align: center;
+    font-size: 1rem;
+    color: #ebebeb;
+}
+
+.opened {
+    background-color: #005726;
+    color: #b9b9b900;
+    border: 1px dashed #ebebeb;
+    cursor: not-allowed;
+}
